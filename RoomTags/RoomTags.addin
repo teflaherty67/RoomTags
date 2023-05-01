@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RoomTags</Text>
+    <Description>Some description for RoomTags</Description>
+    <Assembly>RoomTags.dll</Assembly>
+    <FullClassName>RoomTags.Command</FullClassName>
+    <ClientId>3842a9aa-5562-4d4b-b08e-e15ee6edc387</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RoomTags</Name>
+    <Assembly>RoomTags.dll</Assembly>
+    <FullClassName>RoomTags.App</FullClassName>
+    <ClientId>fb79d882-cc17-4bda-8922-06eb7e17e658</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
